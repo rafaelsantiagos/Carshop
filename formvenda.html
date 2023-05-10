@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarShop:Cadastre seu veículo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Cadastre seu veículo aqui:</h1>
+    <form action="http://vansan.com.br/form_teste/recebe.php" method="get">
+        <p>
+            <label for="marca">Escolha o campo que corresponde a marca do carro em questão:</label>
+            <select name="marca" id="marca">
+                <option value="chevrolet">Chevrolet</option>
+                <option value="fiat">Fiat</option>
+                <option value="ford">Ford</option>
+                <option value="honda">Honda</option>
+                <option value="nissan">Nissan</option>
+                <option value="peugeot">Peugeot</option>
+                <option value="toyota">Toyota</option>
+                <option value="volkswagen">Volkswagen</option>
+                <option value="volvo">Volvo</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="modelo">Preencha o campo que corresponde ao modelo:</label> <br>
+            <input type="radio" name="modelo" value="eletrico">Elétrico <br>
+            <input type="radio" name="modelo" value="esportivo">Esportivo <br>
+            <input type="radio" name="modelo" value="offroad">Off-Road <br>
+            <input type="radio" name="modelo" value="picape">Picape <br>
+            <input type="radio" name="modelo" value="sedan">Sedan <br>
+            <input type="radio" name="modelo" value="suv">SUV<br>
+        </p>
+        <button type="button"><a href="index.html#home">Voltar</a></button>
+    </form>
+</body>
+
+</html>

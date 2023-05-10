@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>CarShop:Cadastro de vendedor</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="formcadastro.html">
+     <h1>Cadastro:</h1>
+     <form action="http://vansan.com.br/form_teste/recebe.php" method="get">
+
+          <p>
+               <label for="nome">Escreva seu nome:</label> <br>
+               <input type="text" name="nome" required placeholder="Nome"> <br>
+          </p>
+
+          <p>
+               <label for="sobrenome">Escreva seu sobrenome:</label> <br>
+               <input type=" text" name="sobrenome" required placeholder="Sobrenome"> <br>
+          </p>
+
+          <p>
+               <label for="data_nascimento">Insira o dia em que você nasceu:</label> <br>
+               <input type="date" name="data_nascimento" required> <br>
+          </p>
+
+          <p>
+               <label for="telefone">Digite seu número de telefone:</label> <br>
+               <input type="tel" name="telefone" required placeholder="Ex:+55 01 23456-7890"
+                    pattern="+^d{2} ^d{2} ^d{5}-^d{4}"> <br>
+          </p>
+
+          <p>
+               <label for="email">Digite seu email:</label><br>
+               <input type="email" name="email" required placeholder="Ex:joaodasilva@hotmail.com"> <br>
+          </p>
+
+          <p>
+               <label for="senha">Crie uma senha forte:</label><br>
+               <input type="password" name="senha" required placeholder="Senha"> <br>
+          </p>
+
+          <p>
+               <label for="confirme">Confirme sua senha:</label><br>
+               <input type="password" name="confirme" required placeholder="Digite a mesma senha"> <br>
+          </p>
+
+          <input type="submit" value="Enviar">
+          <input type="reset" value="Limpar formulário">
+          <button type="button"><a href="index.html#home">Voltar</a></button>
+     </form>
+
+</body>
+
+</html>
