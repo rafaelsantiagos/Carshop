@@ -1,0 +1,35 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: normal;
+    font-style: justify;
+}
+p {
+    font-size: larger
+}
+h1 {
+    color: white;
+    text-align: center;
+    background-color: crimson;
+}
+h2 {
+    color: deepskyblue;
+}
+body {
+    background-color: white;
+}
+h3 {
+    font-size: 20px;
+    color: #0000ff;
+}
+input {
+    border-color: red ;
+}
+button {
+    border-color: red;
+}
+select {
+    border-color: red;
+}
+input#radio {
+    color: red;
+}
